@@ -14,9 +14,12 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+let me = {
+  name: "Aster",
+  age: 20
+}
 
-
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -25,20 +28,28 @@
   Have the values to those keys be your favorite thing in that category.
 */
 
-//Code here
-
+let favoriteThings = {
+  band: "twenty one pilots",
+  food: "pasta",
+  person: "Aidan",
+  book: "Child of the Storm",
+  movie: "The Princess Bride",
+  holiday: "Walpurgisnacht"
+}
 
 
 /*
-  After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
+  After you've made your object, add another key named 'car' with the value being your favorite car and
+  then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+
 
 
 
 /*
-  Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
+  Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and 
+  change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
@@ -52,7 +63,8 @@
   Now, create a variable called 'item' and set it equal to the string 'firstPocket'. 
   Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
   Set the value of that key to 'chapstick'.
-  Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
+  Using dot notation, add another key (or property) to your backPack object that is named color, 
+  with the value being the color of your backpack. 
 */
 
 //Code here
