@@ -43,8 +43,8 @@ let favoriteThings = {
   then another key named 'brand' with the value being your favorite brand.
 */
 
-
-
+favoriteThings.car = "bumblebee";
+favoriteThings.brand = "bepis";
 
 
 /*
@@ -52,8 +52,8 @@ let favoriteThings = {
   change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 
 ////////// PROBLEM 3 //////////
@@ -67,15 +67,17 @@ let favoriteThings = {
   with the value being the color of your backpack. 
 */
 
-//Code here
+let backPack = {};
+let item = "firstPocket";
 
-
+backPack[item] = "chapstick";
+backPack.color = "turquoise";
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
+alert(backPack);
 
 
 
@@ -85,7 +87,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. 
 */
 
-//Code here
+console.log(backPack);
 
 
 
